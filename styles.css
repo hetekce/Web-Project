@@ -7,12 +7,13 @@ body{
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:50px;
-	
+
 }
 #inhalt{
 	background-image:url("image/laptop.jpg");
-	width:1200px;
-	height:750px;
+	filter: blur(0.3em);
+	width: 1200px;
+	height: 750px;
 	z-index:1;
 	border-left-style:grad;
 	box-shadow: 0 0 5px 5px;
@@ -32,11 +33,40 @@ body{
 	margin-top:50px;
 	margin-left:50px;
 	border-radius:15px;
-	
+
+}
+#navigation_pane{
+	text-align: right;
 }
 #footer{
 	width:1200px;
 	height:80px;
 	background-color:#000;
-	
+
 }
+
+.nav_pane{
+	margin-right: 50px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: "Comic Sans MS";
+	color: white;
+}
+
+.nav_pane:hover{
+	opacity: 0.7;
+	color: #886c09;
+}
+#logo{
+	width: 15px;
+	height: 15px;
+	text-align: left;
+}
+img{
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	position: absolute;
+	margin-top: -10px;
+}
+img:hover{opacity: 0.7;}
