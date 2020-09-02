@@ -1,0 +1,12 @@
+html{
+    background: url('image/signup.jpg') no-repeat center center fixed #000;
+    background-size: cover;
+}
+body{
+    font-family: Verdana, monospace, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+

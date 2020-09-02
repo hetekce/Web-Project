@@ -3,32 +3,42 @@ body{
 	text-align:center;
 }
 #content{
+	padding-top:30px;
+	background-image:url("image/laptop.jpg");
 	width:1200px;
+	height:800px;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:50px;
+	box-shadow: 0 0 5px 5px;
+	border-top-right-radius:15px;
+	border-top-left-radius:15px;
 
 }
 #inhalt{
-	background-image:url("image/laptop.jpg");
-	filter: blur(0.3em);
-	width: 1200px;
-	height: 750px;
+	padding-top:120px;
+	width:1200px,;
+	height:460px;
 	z-index:1;
 	border-left-style:grad;
-	box-shadow: 0 0 5px 5px;
-	border-radius: 10px;
+	text-align:left;
+	vertical-align: bottom;
+}
+
+h6{
+	text-shadow:#000 2px 2px 1px;
+	color:#0255DF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:30px;
 }
 
 #menu{
-	margin-top:30px;
 	background-color:#fff;
 	width:1100px;
 	height:80px;
 	color:#fff;
 	background-color:#000;
 	z-index:2;
-	position:absolute;
 	border:3px solid #000;
 	margin-top:50px;
 	margin-left:50px;
@@ -41,7 +51,8 @@ body{
 #footer{
 	width:1200px;
 	height:80px;
-	background-color:#000;
+	background-color:#E0BEA3;
+	border-top:2px solid #635F5E;
 
 }
 
@@ -70,3 +81,17 @@ img{
 	margin-top: -10px;
 }
 img:hover{opacity: 0.7;}
+
+.account{
+	position: relative;
+	text-align: right;
+	font-family: Cambria;
+	color: black;
+	margin-right: 30px;
+	text-decoration: none;
+	font-size: 20px;
+}
+.account:hover {
+	opacity: 0.7;
+	color: #886c09;
+}
