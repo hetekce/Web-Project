@@ -1,0 +1,38 @@
+.client{
+	font-weight: bold;
+	text-align:center;
+	color: blue;
+	background-color: lightgrey;
+	text-decoration: underline;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 30px;
+}
+.client1{
+	 font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+.review{
+	border-color:blue;
+	font-size: 17px;
+	background-color: lightblue;
+	width: 300px;
+	height:390px;
+	border-style: solid;
+	display: block;
+	padding: 5px;
+	
+	
+	
+	
+}
+.pic img{
+	margin-left: 5px;
+	border-style: solid;
+	height: 400px;
+	width: 1000px;
+	position: fixed;
+	bottom: 10px;
+	right: 7px;
+		
+	
+}
