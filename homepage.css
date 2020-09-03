@@ -5,7 +5,7 @@
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
-sdssd
+
 body {
 	width:80%;
 	display: flex;
@@ -52,7 +52,10 @@ body {
 }
 
 
-img:hover{opacity: 0.7;}
+img:hover{opacity: 0.7;
+
+
+}
 
 
 
@@ -111,14 +114,38 @@ p{
 		background:#eee;
 		
 	}
+
+.metin{
+	display:flex;
+	flex-direction:column;
+}	
+#baslik1{
+	font-size:15px;
+	font-weight:bold;
+	color:#EE012B;
+	margin-bottom:20px;
+	margin-top:20px;
 	
+}
+#resim_yazi{
+	display:flex;
+	flex-direction:row;
+	
+	
+}
+#resim{
+	margin-left:20px;
+}
 
 
 footer{
 	display:flex;
-	flex-direction:row;
+	flex-direction:column;
 	height:80px;
 	background-color:#E0BEA3;
 	border-top:2px solid #635F5E;
+	font-size:12px;
+	margin-bottom:100px;
+	padding:20px;
 	
 }
