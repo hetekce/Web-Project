@@ -57,6 +57,7 @@ h6{
 }
 #navigation_pane{
 	text-align: right;
+	width:100%
 }
 #footer{
 	width:1200px;
@@ -64,11 +65,13 @@ h6{
 	padding-top:30px;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:100px;
+	margin-top: 10px;
 	border-radius: 15px;
 	box-shadow: 0 0 5px 5px;
 }
-
+.space{
+	margin-top:90px;
+}
 .nav_pane{
 	margin-right: 50px;
 	text-decoration: none;
@@ -190,8 +193,8 @@ img:hover{opacity: 0.7;}
 
 .datenschutz{
 	padding-top:30px;
-	width:1500px;
-	height:2350px;
+	width:1200px;
+	height:2500px;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:50px;
@@ -202,12 +205,28 @@ img:hover{opacity: 0.7;}
 
 .impressum{
 	padding-top:30px;
-	width:1500px;
-	height:800px;
+	width:1200px;
+	height:1000px;
 	margin-left:auto;
 	margin-right:auto;
 	margin-top:50px;
 	box-shadow: 0 0 5px 5px;
 	border-radius: 15px;
 	position: relative;
+}
+
+@media screen and (max-width: 1280px) {
+	#content, #inhalt, #menu, #footer, .impressum, .datenschutz{
+		width: 80%;
+	}
+	.message_pane{
+		width: 15%;
+	}
+	#navigation_pane{
+		width: 50%;
+		text-align: right;
+	}
+	.background-image{
+		background-size: cover;
+	}
 }
