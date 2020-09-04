@@ -11,7 +11,10 @@ body{
 	box-shadow: 0 0 5px 5px;
 	border-radius: 15px;
 	position: relative;
+	background:url('image/main_page.jpg');
+	background-size:cover;
 }
+
 
 #inhalt{
 	padding-top:120px;
@@ -31,16 +34,7 @@ h6{
 	font-size:30px;
 }
 
-.background-image{
-	position:absolute;
-	left:0;
-	right:0;
-	top:0;
-	bottom:0;
-	background:url('image/main_page.jpg');
-	background-size:cover;
-	z-index:1;
-}
+
 
 #menu{
 	width:1100px;
@@ -57,7 +51,7 @@ h6{
 }
 #navigation_pane{
 	text-align: right;
-	width:100%
+	width:1100px
 }
 #footer{
 	width:1200px;
@@ -216,17 +210,31 @@ img:hover{opacity: 0.7;}
 }
 
 @media screen and (max-width: 1280px) {
-	#content, #inhalt, #menu, #footer, .impressum, .datenschutz{
-		width: 80%;
+	#content{
+		width: 768px;
+		background:url('image/main_page.jpg');
+		background-size:cover;
+
 	}
-	.message_pane{
-		width: 15%;
+	#inhalt, .impressum, .datenschutz{
+		width: 768px;
 	}
+	#menu{
+		width: 668px;
+	}
+	#footer{
+		width: 768px;
+	}
+
 	#navigation_pane{
-		width: 50%;
+		width: 680px;
 		text-align: right;
 	}
 	.background-image{
 		background-size: cover;
+	}
+
+	.nav_pane{
+		margin-right: 25px;
 	}
 }
